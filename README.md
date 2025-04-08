@@ -4,7 +4,6 @@ This repository contains various demonstrations of Google's **Teachable Machine*
 
 ## Table of Contents
 1. [Google Teachable Machine Examples](#google-teachable-machine-examples)  
-   - [Text Classification](#text-classification)  
    - [Image Classification](#image-classification)  
    - [Video Classification](#video-classification)  
    - [Audio Classification](#audio-classification)  
@@ -17,10 +16,6 @@ This repository contains various demonstrations of Google's **Teachable Machine*
 ## Google Teachable Machine Examples
 
 Google Teachable Machine is a simple way to train machine learning models without needing to write any code. Below are the updated demos using **text**, **image**, **video**, and **audio** inputs.
-
-### Text Classification
-
-In this demo, we trained a Teachable Machine model to classify different types of text, such as greetings and farewells.
 
 ### Image Classification
 

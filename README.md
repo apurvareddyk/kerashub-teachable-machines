@@ -1,68 +1,60 @@
 # Teachable Machine and Keras-Hub Examples
 
-This repository contains various demonstrations of Google's **Teachable Machine** framework and **Keras Hub** implementations for image and text classification. These demos are split into categories, ranging from beginner to expert levels, and come with YouTube video explanations for each.
+This repository contains various demonstrations of Google's **Teachable Machine** framework and **Keras Hub** implementations for image, audio, video, and text classification. These demos are split into categories, ranging from beginner to expert levels, and come with YouTube video explanations for each.
 
 ## Table of Contents
-
-1. [Google Teachable Machine Examples](#google-teachable-machine-examples)
-   - [Text Classification](#text-classification)
-   - [Image Classification](#image-classification)
-   - [Video Classification](#video-classification)
-2. [Keras Hub Examples](#keras-hub-examples)
-   - [Easy Image Classification](#easy-image-classification)
-   - [Intermediate Image Classification](#intermediate-image-classification)
-   - [Advanced Text Classification](#advanced-text-classification)
-   - [Expert Text Classification](#expert-text-classification)
+1. [Google Teachable Machine Examples](#google-teachable-machine-examples)  
+   - [Text Classification](#text-classification)  
+   - [Image Classification](#image-classification)  
+   - [Video Classification](#video-classification)  
+   - [Audio Classification](#audio-classification)  
+2. [Keras Hub Examples](#keras-hub-examples)  
+   - [Image Classification](#image-classification-keras-hub)  
+   - [Text Classification](#text-classification-keras-hub)  
 
 ---
 
 ## Google Teachable Machine Examples
 
-Google Teachable Machine is a simple way to train machine learning models without needing to write any code. Below are three examples using **text**, **image**, and **video** inputs.
+Google Teachable Machine is a simple way to train machine learning models without needing to write any code. Below are the updated demos using **text**, **image**, **video**, and **audio** inputs.
 
 ### Text Classification
-In this demo, I trained a Teachable Machine model to classify different types of text based on simple inputs (e.g., greeting vs. farewell messages).
 
-**Link to Model:** [Text Classification Model on Teachable Machine](https://teachablemachine.withgoogle.com/train/text)
+In this demo, we trained a Teachable Machine model to classify different types of text, such as greetings and farewells.
 
 ### Image Classification
-This demo showcases a custom image classification model trained using Teachable Machine. It classifies images based on categories such as "cats," "dogs," and "bicycles."
 
-**Link to Model:** [Image Classification Model on Teachable Machine](https://teachablemachine.withgoogle.com/train/image)
+We built a custom image classification model for **agriculture crop classification**, trained using Teachable Machine. This helps identify crop types using image inputs.
 
 ### Video Classification
-In this demo, the model is trained to classify short video clips. This could be used for applications like action recognition, gesture recognition, etc.
 
-**Link to Model:** [Video Classification Model on Teachable Machine](https://teachablemachine.withgoogle.com/train/video)
+This demo classifies short video clips to detect **"Phone" vs. "No Phone"** scenarios — useful for distracted driving detection and similar use cases.
+
+### Audio Classification
+
+This project uses audio input to distinguish between **guitar sounds** and **background noise**. It can be used for sound-based filtering in smart environments.
+
+**Teachable Machine Colab:** [Teachable Machine Examples - Colab Notebook](https://colab.research.google.com/drive/1OPknT3EPZlcAlhCcV_uosSkaauk7inlP?usp=sharing)  
+**YouTube Walkthrough:** [Watch on YouTube](https://youtu.be/rNiz7PfBaxo)
 
 ---
 
 ## Keras Hub Examples
 
-Keras Hub allows users to leverage pre-trained models with minimal code to solve various problems in text and image classification. Below are examples ranging from easy to expert levels for both images and text.
+Keras Hub allows users to leverage pre-trained models with minimal code for tasks like text and image classification. Below are placeholder examples which will be updated soon.
 
-### Easy Image Classification
-In this example, I used a pre-trained model for basic image classification with the Keras Hub API. The goal is to show how to use pre-trained models to classify images with minimal setup.
+### Image Classification (Keras Hub)
 
-**Colab Link:** [Easy Image Classification Colab](https://colab.research.google.com/example_link)
+This example will demonstrate how to use a pre-trained Keras model for basic image classification.
 
-### Intermediate Image Classification
-This demo uses transfer learning techniques to fine-tune a pre-trained model on a small custom image dataset. It demonstrates how to adapt a model for specific image classification tasks.
+**Colab Link:** *[Link](www.colab.com)*
 
-**Colab Link:** [Intermediate Image Classification Colab](https://colab.research.google.com/example_link)
+### Text Classification (Keras Hub)
 
-### Advanced Text Classification
-This example demonstrates how to use Keras Hub to fine-tune a pre-trained NLP model for text classification tasks. The model can be used for applications like sentiment analysis, spam detection, or topic classification.
+This example will demonstrate how to use pre-trained transformer models via Keras Hub for advanced text classification tasks.
 
-**Colab Link:** [Advanced Text Classification Colab](https://colab.research.google.com/example_link)
+**Colab Link:** *[Link](www.colab.com)*
 
-### Expert Text Classification
-For this expert-level demo, we explore using transformer-based models for text classification tasks. It involves complex fine-tuning and hyperparameter optimization
-
-**Colab Link:** [Expert Text Classification Colab](https://colab.research.google.com/example_link)
+**Keras Hub YouTube Walkthrough:** *[Youtube Link](www.youtube.com)*
 
 ---
-
-**Video Link:** [Youtube Link](https://www.youtube.com)
-
-Thank you!

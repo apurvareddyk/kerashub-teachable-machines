@@ -59,7 +59,7 @@ This notebook covers:
 - Expert: Transformer architectures with customized heads and advanced training strategies
 
 **Colab Link:** [Keras Hub Text Classification (All Levels)](https://colab.research.google.com/drive/1t4zRtPx5C2S2Y0lzmRukekNxeJaIofFI?usp=sharing)  
-**Keras Hub Walkthrough:** [Watch on YouTube](https://www.youtube.com)
+**Keras Hub Walkthrough:** [Watch on YouTube](https://youtu.be/rB5E6HYxtbY)
 
 ---
 
